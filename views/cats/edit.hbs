@@ -1,0 +1,12 @@
+<form action="/cats/{{id}}?_method=PUT" method="POST">
+    <h1>Update {{cat.name}}</h1>
+    <a href="/cats/{{id}}">Back to {{cat.name}}</a>
+
+    <label for="name">Name:</label>
+    <input type="text" name="name" value="{{cat.name}}">
+
+    <label for="age">Age:</label>
+    <input type="number" name="age" value="{{cat.age}}">
+
+    <input type="submit" value="Update">
+</form>ƒ

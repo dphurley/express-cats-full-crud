@@ -1,4 +1,10 @@
 <div>
-    <h1>{{cat.name}}</h1>
+    <h1>{{cat.name}} (#{{id}})</h1>
+
+    <div>{{catFullPrice}}</div>
+
     <div>Age: {{cat.age}}</div>
+    <a href="/cats/{{id}}/delete">Delete</a>
+    <a href="/cats/{{id}}/edit">Edit</a>
+    <a href="/cats">Back to All Cats</a>
 </div>
