@@ -1,0 +1,10 @@
+<div>
+    <h1>Here are some cats:</h1>
+    <a href="/cats/new">Create a Cat</a>
+    <hr>
+    {{#each cats}}
+        <div>
+            <a href="/cats/{{@index}}">{{this.name}}</a>
+        </div>
+    {{/each}}
+</div>
